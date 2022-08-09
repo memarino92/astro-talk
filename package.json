@@ -1,0 +1,26 @@
+{
+  "name": "@example/blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^0.5.2",
+    "@astrojs/react": "^0.4.3",
+    "@astrojs/svelte": "^0.5.1",
+    "astro": "^1.0.0-rc.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svelte": "^3.49.0"
+  },
+  "dependencies": {
+    "@nanostores/react": "^0.3.0",
+    "nanostores": "^0.6.0",
+    "preact": "^10.7.3"
+  }
+}
